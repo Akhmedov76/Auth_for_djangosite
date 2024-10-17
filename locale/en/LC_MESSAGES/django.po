@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-17 17:57+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\Home.html:26
+msgid "Home"
+msgstr ""
+
+#: .\templates\Home.html:27
+msgid "Portfolio"
+msgstr ""
+
+#: .\templates\Home.html:28
+msgid "Courses"
+msgstr ""
+
+#: .\templates\Home.html:29
+msgid "About us"
+msgstr ""
+
+#: .\templates\Home.html:30
+msgid "Contact us"
+msgstr ""
+
+#: .\templates\Home.html:48 .\templates\Home.html:61
+msgid "LOG IN"
+msgstr ""
+
+#: .\templates\Home.html:57
+msgid "Welcome Back"
+msgstr ""
+
+#: .\templates\Home.html:58
+msgid ""
+"Please log in using your personal information to stay connected with us."
+msgstr ""
+
+#: .\templates\Home.html:65
+msgid "Email"
+msgstr ""
+
+#: .\templates\Home.html:69
+msgid "Password"
+msgstr ""
+
+#: .\templates\Home.html:71
+msgid "Forgot password?"
+msgstr ""
+
+#: .\templates\Home.html:72
+msgid "Log In"
+msgstr ""
+
+#: .\templates\Home.html:75
+msgid "Do not have an account?"
+msgstr ""
+
+#: .\templates\Home.html:76
+msgid "Signup"
+msgstr ""
+
+#: .\templates\Home.html:82
+msgid "Create Account"
+msgstr ""
+
+#: .\templates\Home.html:83
+msgid ""
+"To become a part of our community, please sign up using your personal "
+"information."
+msgstr ""
+
+#: .\templates\Home.html:86
+msgid "SIGNUP"
+msgstr ""
+
+#: .\templates\Home.html:90
+msgid "First name"
+msgstr ""
+
+#: .\templates\Home.html:94
+msgid "Last name"
+msgstr ""
+
+#: .\templates\Home.html:98
+msgid "Enter your email"
+msgstr ""
+
+#: .\templates\Home.html:102
+msgid "Create password"
+msgstr ""
+
+#: .\templates\Home.html:107
+msgid "I agree the"
+msgstr ""
+
+#: .\templates\Home.html:108
+msgid "Terms & Conditions"
+msgstr ""
+
+#: .\templates\Home.html:111
+msgid "Sign Up"
+msgstr ""
+
+#: .\templates\Home.html:114
+msgid "Already have an account?"
+msgstr ""
+
+#: .\templates\Home.html:115
+msgid "Login"
+msgstr ""

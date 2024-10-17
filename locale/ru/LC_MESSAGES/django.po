@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-17 17:57+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\templates\Home.html:26
+msgid "Home"
+msgstr "Главный"
+
+#: .\templates\Home.html:27
+msgid "Portfolio"
+msgstr "Портфель"
+
+#: .\templates\Home.html:28
+msgid "Courses"
+msgstr "Курсы"
+
+#: .\templates\Home.html:29
+msgid "About us"
+msgstr "О нас"
+
+#: .\templates\Home.html:30
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+#: .\templates\Home.html:48 .\templates\Home.html:61
+msgid "LOG IN"
+msgstr "АВТОРИЗОВАТЬСЯ"
+
+#: .\templates\Home.html:57
+#, fuzzy
+#| msgid "Welcome"
+msgid "Welcome Back"
+msgstr "Добро пожаловать"
+
+#: .\templates\Home.html:58
+msgid ""
+"Please log in using your personal information to stay connected with us."
+msgstr ""
+"Пожалуйста, войдите в систему, используя свои персональные данные, чтобы "
+"оставаться на связи с нами."
+
+#: .\templates\Home.html:65
+msgid "Email"
+msgstr "Электронная почта"
+
+#: .\templates\Home.html:69
+msgid "Password"
+msgstr "Пароль"
+
+#: .\templates\Home.html:71
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: .\templates\Home.html:72
+msgid "Log In"
+msgstr "Авторизоваться"
+
+#: .\templates\Home.html:75
+msgid "Do not have an account?"
+msgstr "У вас нет учетной записи?"
+
+#: .\templates\Home.html:76
+msgid "Signup"
+msgstr "Зарегистрироваться"
+
+#: .\templates\Home.html:82
+msgid "Create Account"
+msgstr ""
+
+#: .\templates\Home.html:83
+msgid ""
+"To become a part of our community, please sign up using your personal "
+"information."
+msgstr ""
+"Чтобы стать частью нашего сообщества, зарегистрируйтесь, используя свои "
+"персональные данные."
+
+#: .\templates\Home.html:86
+msgid "SIGNUP"
+msgstr "ЗАРЕГИСТРИРОВАТЬСЯ"
+
+#: .\templates\Home.html:90
+msgid "First name"
+msgstr ""
+
+#: .\templates\Home.html:94
+msgid "Last name"
+msgstr ""
+
+#: .\templates\Home.html:98
+msgid "Enter your email"
+msgstr "Введите свой адрес электронной почты"
+
+#: .\templates\Home.html:102
+msgid "Create password"
+msgstr "Создать пароль"
+
+#: .\templates\Home.html:107
+msgid "I agree the"
+msgstr ""
+
+#: .\templates\Home.html:108
+msgid "Terms & Conditions"
+msgstr "Условия и положения"
+
+#: .\templates\Home.html:111
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: .\templates\Home.html:114
+msgid "Already have an account?"
+msgstr "У вас уже есть аккаунт?"
+
+#: .\templates\Home.html:115
+msgid "Login"
+msgstr "Авторизоваться"
