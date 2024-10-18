@@ -1,6 +1,6 @@
 from django.urls import path
 
-from users.views import HomePageView
+from account.views import HomePageView
 
 app_name = 'homepage'
 urlpatterns = [

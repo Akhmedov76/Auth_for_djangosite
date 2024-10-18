@@ -18,7 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Apps
-    'users'
+    'account'
 ]
 
 MIDDLEWARE = [
@@ -110,4 +110,4 @@ try:
 except ImportError:
     pass
 
-AUTH_USER_MODEL = 'users.UserModel'
+AUTH_USER_MODEL = 'account.UserModel'

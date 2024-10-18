@@ -1,6 +1,6 @@
 from django.db import models
 
-from django.contrib.auth.models import BaseUserManager, AbstractBaseUser, PermissionsMixin
+from django.contrib.auth.models import BaseUserManager, AbstractUser
 
 
 class UserManager(BaseUserManager):
@@ -13,7 +13,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-    def create_superuser(self, email, password, **extra_fields):
+    def create_superuser(self, email, password=None, **extra_fields):
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_superuser', True)
 
@@ -25,24 +25,24 @@ class UserManager(BaseUserManager):
         return self.create_user(email, password, **extra_fields)
 
 
-class UserModel(AbstractBaseUser, PermissionsMixin):
+class UserModel(AbstractUser):
+    username = None
+
     email = models.EmailField(unique=True)
-
-    is_active = models.BooleanField(default=True)
-    is_staff = models.BooleanField(default=False)
-    is_superuser = models.BooleanField(default=False)
-
-    full_name = models.CharField(max_length=255, null=True, blank=True)
-
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['password']
+
     objects = UserManager()
 
     def __str__(self):
         return self.email
 
     def get_full_name(self):
-        return self.full_name if self.full_name else self.email.split('@')[0]
+        return f"{self.first_name} | {self.last_name}"
 
-    def get_short_name(self):
-        return self.full_name if self.full_name else self.email.split('@')[0]
+    def __repr__(self):
+        return f"<User: {self.email}>"
+
+    class Meta:
+        verbose_name = 'User'
+        verbose_name_plural = 'Users'
